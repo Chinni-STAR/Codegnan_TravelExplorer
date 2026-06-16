@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import {AddDestination} from "../pages/AddDestination";
+import {AddDestination} from "../Pages/AddDestination";
 
-import Home from "../pages/Home";
-import Destinations from "../pages/Destinations";
-import DestinationDetails from "../pages/DestinationDetails";
-import EditDestination from "../pages/EditDestination";
-import Register from "../pages/Register";
-import Login from "../pages/Login";
-import Logout from "../pages/Logout";
+import Home from "../Pages/Home";
+import Destinations from "../Pages/Destinations";
+import DestinationDetails from "../Pages/DestinationDetails";
+import EditDestination from "../Pages/EditDestination";
+import Register from "../Pages/Register";
+import Login from "../Pages/Login";
+import Logout from "../Pages/Logout";
 import ProtectedRoute from "./ProtectedRoute";
 import Favorites from "../Pages/Favorites";
 function AppRoutes() {
